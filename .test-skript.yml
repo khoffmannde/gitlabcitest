@@ -17,3 +17,8 @@ compile_test:
   script:
     - npm install
     - npm run compile
+  artifacts:
+    reports:
+      paths:
+        - mycv.pdf
+      expire_in: 1 week
