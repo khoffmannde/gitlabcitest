@@ -21,3 +21,4 @@ compile_test:
     paths:
       - /root/.npm/_logs/
     expire_in: 1 week
+    when: on_failure
