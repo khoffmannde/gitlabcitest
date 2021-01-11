@@ -9,6 +9,9 @@ cache:
   paths:
     - node_modules/
 
+stages:
+  - functional test
+
 compile_test:
   stage: functional test
   script:
