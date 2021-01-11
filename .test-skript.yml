@@ -15,7 +15,7 @@ stages:
 compile_test:
   stage: functional test
   script:
-    - npm install
+    - npm install --verbose
     - npm run compile --verbose
   artifacts:
     paths:
