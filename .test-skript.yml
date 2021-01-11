@@ -9,7 +9,8 @@ cache:
   paths:
     - node_modules/
 
-test_async:
+compile_test:
+  stage: functional test
   script:
     - npm install
     - npm run compile
