@@ -16,8 +16,8 @@ compile_test:
   stage: functional test
   script:
     - npm install
-    - npm run compile
+    - npm run compile --verbose
   artifacts:
     paths:
-      - .npm/_logs/
+      - /root/.npm/_logs/
     expire_in: 1 week
