@@ -19,7 +19,5 @@ compile_test:
     - npm run compile
   artifacts:
     paths:
-      - /root/.npm/_logs/
+      - .npm/_logs/
     expire_in: 1 week
-    reports:
-      codequality: test.xml
