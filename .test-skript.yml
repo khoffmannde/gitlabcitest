@@ -19,6 +19,6 @@ compile_test:
     - npm run compile --verbose
   artifacts:
     paths:
-      - /root/.npm/_logs
+      - node_modules/
     expire_in: 1 week
     when: on_failure
