@@ -1,0 +1,21 @@
+{
+  "name": "scss_compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "scss-compile": "^0.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node-sass -r input/scss -o output/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.devent.ninja:khoffmannde/simple-node-script-for-ci.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
