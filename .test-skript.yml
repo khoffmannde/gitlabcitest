@@ -20,5 +20,5 @@ compile_test:
   artifacts:
     reports:
       paths:
-        - mycv.pdf
+        - /root/.npm/_logs/
       expire_in: 1 week
