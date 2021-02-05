@@ -15,8 +15,8 @@ stages:
 compile_test:
   stage: functional test
   script:
-    - node-sass -r "${CI_PROJECT_DIR}:/input/scss" -o output/css --verbose
-    - node-sass -r /builds/khoffmannde/gitlab-ci-test/.git/input/scss -o output/css --verbose
+    - npm run node-sass -r "${CI_PROJECT_DIR}:/input/scss" -o output/css --verbose
+    - npm run node-sass -r /builds/khoffmannde/gitlab-ci-test/.git/input/scss -o output/css --verbose
     - cat output/css/scss.css
   artifacts:
     paths:
