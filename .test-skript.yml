@@ -15,10 +15,9 @@ stages:
 compile_test:
   stage: functional test
   script:
-    - npm install --verbose
     - npm run compile --verbose
+    - cat output/css/scss.css
   artifacts:
     paths:
-      - node_modules/
+      - output/css/scss.css
     expire_in: 1 week
-    when: on_failure
