@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "node-sass -r input/scss -o output/css"
+    "compile": "node-sass -r $npm_config_input -o output/css --version"
   },
   "repository": {
     "type": "git",
